@@ -1,21 +1,30 @@
 h1 {
   color: white;
   background-color: #4aaaa5;
+  margin: 25px;
+  padding: 25px;
 }
+
 .headerlinks {
   color: grey;
   font-size: 12;
-  float: right;
   padding-right: 15px;
 }
 
 .topbar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: white;
   padding-bottom: 30px;
 }
 
 .primarycontent {
   margin: 25px;
-  background-color: white;
+  padding: 25px;
+  background-color: #ffffff;
+  border-color: #dddddd;
   float:left;
 }
 
@@ -41,5 +50,5 @@ h1 {
 }
 
 .footsyle {
-
+  background-color: #666666;
 }

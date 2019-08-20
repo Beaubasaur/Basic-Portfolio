@@ -1,0 +1,45 @@
+h1 {
+  color: white;
+  background-color: #4aaaa5;
+}
+.headerlinks {
+  color: grey;
+  font-size: 12;
+  float: right;
+  padding-right: 15px;
+}
+
+.topbar {
+  padding-bottom: 30px;
+}
+
+.primarycontent {
+  margin: 25px;
+  background-color: white;
+  float:left;
+}
+
+.connectwithme {
+  margin: 25px;
+  padding: 10px;
+  background-color: white;
+  float: right;
+}
+
+.cbimg {
+  width:60px;
+  height:60px;
+}
+.connectbutton {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.thema {
+  background-color: grey;
+}
+
+.footsyle {
+
+}

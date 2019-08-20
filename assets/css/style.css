@@ -1,36 +1,46 @@
+body {
+  width: 960px;
+  background-color: grey;
+  margin: auto;
+}
+
+header {
+    padding: 60px;
+    margin: none;
+    background-color: white;
+    position: initial;
+  }
+
 h1 {
   color: white;
   background-color: #4aaaa5;
-  margin: 25px;
-  padding: 25px;
+  margin: 10px;
+  float: left;
+  padding: 20px;
 }
 
 .headerlinks {
   color: grey;
   font-size: 12;
   padding-right: 15px;
+  float: right;
 }
 
-.topbar {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  background-color: white;
-  padding-bottom: 30px;
+.biography {
+  float: right;
 }
 
 .primarycontent {
-  margin: 25px;
-  padding: 25px;
+  margin: 10px;
   background-color: #ffffff;
   border-color: #dddddd;
   float:left;
+  width: 650px;
 }
 
 .connectwithme {
-  margin: 25px;
-  padding: 10px;
+  margin: 10px;
+  width: 270px;
   background-color: white;
   float: right;
 }
@@ -39,16 +49,19 @@ h1 {
   width:60px;
   height:60px;
 }
+
 .connectbutton {
   padding: 0;
   border: none;
   background: none;
 }
 
-.thema {
-  background-color: grey;
-}
-
-.footsyle {
+footer {
+  clear: both;
+  text-align: center;
   background-color: #666666;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
 }

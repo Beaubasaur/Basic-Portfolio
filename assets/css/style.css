@@ -1,78 +1,93 @@
-body {
-  width: 960px;
-  background-color: grey;
-  margin: auto;
-}
-
-header {
-    padding: 60px;
-    margin: none;
-    background-color: white;
-    position: initial;
-    vertical-align: middle;
-  }
-
-h1 {
-  color: white;
-  background-color: #4aaaa5;
-  margin: 10px;
-  float: left;
-  padding: 20px;
-}
-
-.headerlinks {
-  color: grey;
-  font-size: 12;
-  padding-right: 15px;
-  float: right;
-}
-
-.primarycontent {
-  display: inline-block;
-  padding: 0 10px 10px 0;
-  margin: 10px;
-  background-color: #ffffff;
-  border-color: #dddddd;
-  width: 650px;
-}
-
-h2 {
-  padding-left: 10px;
-}
-
-.biopic {
-  float:left;
-  padding: 0 10px;
-  display: inline-block;
-}
-
-.biography {
-}
-
-.connectwithme {
-  margin: 10px;
-  width: 270px;
-  background-color: white;
-  float: right;
-}
-
-.cbimg {
-  width:60px;
-  height:60px;
-}
-
-.connectbutton {
-  padding: 0;
+a {
   border: none;
-  background: none;
+  font-style: normal;
+  text-decoration: none;
 }
+body {
+  width: 1200px;
+  font-family: sans-serif;
 
+  background-color: teal;
+}
 footer {
-  clear: both;
-  text-align: center;
-  background-color: #666666;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  padding: 40px;
+  background-color: grey;
 
+  border-top: 8px solid #4aaaa5;
+
+  color: white;
+  text-align: center;
+  clear: both;
+
+}
+header {
+  background-color: white;
+
+  border-bottom: 3px solid #dddddd;
+
+  overflow: auto;
+}
+h1 {
+  padding: 20px;
+  margin-left: 80px;
+  width: 220px;
+
+  background-color: #4aaaa5;
+
+  color: white;
+  font-size: 48px;
+  text-align: center;
+
+  float: left;
+
+}
+h2 {
+  padding: 20px 0 20px 0 ;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 30px;
+
+  color: #4aaaa5;
+  font-size: 32px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+}
+.cbutt {
+ margin: 0 10px;
+ outline: none;
+ width: 60px;
+}
+.connectbutts {
+  padding: 10px;
+
+  text-align: center;
+}
+.headerlinks {
+  padding: 30px 10px 0 10px;
+
+  color: grey;
+  font-size: 24px;
+  text-align: center;
+
+  float: right;
+}
+.maincontent {
+  margin: 20px;
+  padding: 20px 40px;
+  width: 640px;
+
+  background-color: white;
+  border: 2px solid #dddddd;
+
+
+  float: left;
+}
+.connectcontent {
+  float: right;
+  width: 300px;
+}
+.mcimg {
+  padding: 0 20px 20px 0;
+  float: left;
 }

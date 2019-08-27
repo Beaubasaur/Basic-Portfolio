@@ -9,6 +9,7 @@ header {
     margin: none;
     background-color: white;
     position: initial;
+    vertical-align: middle;
   }
 
 h1 {
@@ -26,16 +27,26 @@ h1 {
   float: right;
 }
 
-.biography {
-  float: right;
-}
-
 .primarycontent {
+  display: inline-block;
+  padding: 0 10px 10px 0;
   margin: 10px;
   background-color: #ffffff;
   border-color: #dddddd;
-  float:left;
   width: 650px;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+.biopic {
+  float:left;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.biography {
 }
 
 .connectwithme {

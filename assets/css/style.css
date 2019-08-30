@@ -3,15 +3,18 @@ a {
   font-style: normal;
   text-decoration: none;
 }
-body {
-  width: 1200px;
-  font-family: sans-serif;
-
+body{
   background-color: teal;
 }
+.mainbody {
+  width: 1200px;
+  font-family: sans-serif;
+  margin: auto;
+  overflow: auto;
+}
 footer {
-  padding: 40px;
   background-color: grey;
+  padding: 40px 0;
 
   border-top: 8px solid #4aaaa5;
 

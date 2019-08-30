@@ -6,12 +6,6 @@ a {
 body{
   background-color: teal;
 }
-.mainbody {
-  width: 1200px;
-  font-family: sans-serif;
-  margin: auto;
-  overflow: auto;
-}
 footer {
   background-color: grey;
   padding: 40px 0;
@@ -74,6 +68,12 @@ p {
   text-align: center;
 
   float: right;
+}
+.mainbody {
+  width: 1200px;
+  font-family: sans-serif;
+  margin: auto;
+  overflow: auto;
 }
 .maincontent {
   margin: 20px;
